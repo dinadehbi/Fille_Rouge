@@ -1,0 +1,19 @@
+@startuml "Diagramme de Cas d'Utilisation"
+actor "Acheteur" as User
+actor "Administrateur" as Admin
+
+rectangle "Site Immobilier" {
+    usecase "Chercher" as UC1
+    usecase "Afficher" as UC2
+    usecase "Contacter" as UC3
+    usecase "CRUD Biens" as UC4
+    usecase "Gérer les Contacts" as UC5
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+
+Admin --> UC4
+Admin --> UC5
+@enduml

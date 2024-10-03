@@ -1,0 +1,15 @@
+@startuml "Diagramme de Classe Sprint1"
+actor "Administrateur" as Admin
+
+rectangle "CRUD Biens" {
+    usecase "Ajouter un Bien" as UC1
+    usecase "Afficher un Bien" as UC2
+    usecase "Éditer un Bien" as UC3
+    usecase "Supprimer un Bien" as UC4
+}
+
+Admin --> UC1 : "Ajouter"
+Admin --> UC2 : "Afficher"
+Admin --> UC3 : "Éditer"
+Admin --> UC4 : "Supprimer"
+@enduml

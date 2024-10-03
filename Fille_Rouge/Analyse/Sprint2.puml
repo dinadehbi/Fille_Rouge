@@ -1,0 +1,11 @@
+@startuml "Diagramme de Classe Sprint2"
+actor "Acheteur" as User
+
+rectangle "Site Immobilier" {
+    usecase "Chercher" as UC1
+    usecase "Afficher" as UC2
+}
+
+User --> UC1 : "Chercher"
+User --> UC2 : "Afficher"
+@enduml
