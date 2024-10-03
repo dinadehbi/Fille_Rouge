@@ -1,0 +1,18 @@
+  classDiagram
+ class Acheteur {
+        +int id
+        +string nom
+        +string email
+        +List~Bien~ chercherBiens()
+        +void afficherBiens()
+        +void contacterAdministrateur()
+    }
+
+      class Bien {
+        +int id
+        +string titre
+        +string description
+        +float prix
+        +string type
+    }
+        Acheteur --> Bien : "cherche"
