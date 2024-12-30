@@ -1,6 +1,3 @@
-
----
-
 # Rapport : Projet 'Fille Rouge'
 
 ## Création d'un Site Web pour un Salon de Coiffure 
